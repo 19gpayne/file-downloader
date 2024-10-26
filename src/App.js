@@ -1,8 +1,11 @@
 import './App.css';
+import FileDownloader from './FileDownloader/FileDownloader';
 
 function App() {
   return (
-      <div></div>
+      <div>
+        <FileDownloader />
+     </div>
   );
 }
 
