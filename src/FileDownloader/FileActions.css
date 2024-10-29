@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    gap: 8rem;
+    padding: 1rem;
+    font-size: large;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.warning {
+    color: var(--red);
+    font-size: small;
+}

@@ -1,0 +1,9 @@
+.col-header {
+    border-top: 1px solid color;
+    border-bottom: 1px solid var(--darkgray);
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+    font-size: large;
+    font-weight: 400;
+}

@@ -1,0 +1,27 @@
+.file-row {
+    cursor: pointer;
+}
+
+.file-row:hover {
+    background-color: var(--lightgray);
+}
+
+.selected-row {
+    background-color: var(--gray);
+}
+
+.end-cell {
+    padding-right: 4rem !important;
+}
+
+.middle-cell {
+    padding-right: 10rem !important;
+}
+
+.status-cell {
+    padding-right: 0.5rem !important;
+}
+
+.status-indicator {
+    color: var(--green)
+}

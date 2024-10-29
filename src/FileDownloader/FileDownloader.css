@@ -1,0 +1,12 @@
+.bordered {
+    border-top: 1px solid var(--darkgray);
+    border-bottom: 1px solid var(--darkgray);
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+.bordered-full {
+    border-left: 1px solid var(--darkgray);
+    border-right: 1px solid var(--darkgray);
+    margin: 1rem;
+}
