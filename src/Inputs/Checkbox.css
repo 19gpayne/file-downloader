@@ -1,0 +1,9 @@
+.checkbox {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.blue-box {
+    color: var(--blue)
+}

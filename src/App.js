@@ -1,4 +1,3 @@
-import './App.css';
 import FileDownloader from './FileDownloader/FileDownloader';
 
 function App() {
