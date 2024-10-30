@@ -6,6 +6,7 @@ const Button = ({disabled, onClick, variant, children}) => {
             disabled={disabled}
             className={`${variant}`}
             onClick={onClick}
+            data-testid="button"
         >
             {children}
         </button>

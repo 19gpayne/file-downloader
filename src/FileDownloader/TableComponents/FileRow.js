@@ -15,7 +15,7 @@ const FileRow = ({file, selected, select}) => {
             <td className="bordered middle-cell">{file.path}</td>
             <td className="bordered status-cell">{
                 file.status.toLowerCase() === "available" && 
-                    <FontAwesomeIcon icon={faCircle} className="status-indicator" />
+                    <FontAwesomeIcon icon={faCircle} className="status-indicator" data-testid="status-indicator" />
             }</td>
             <td className="bordered end-cell">
                 {capitalizeFirstLetter(file.status)}
